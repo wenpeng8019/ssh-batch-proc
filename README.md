@@ -1,4 +1,4 @@
-# SSH-RPC - 远程评测自动化工具集
+# SSH-BATCH-PROC - 远程评测自动化工具集
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Shell](https://img.shields.io/badge/shell-bash-green.svg)](https://www.gnu.org/software/bash/)
