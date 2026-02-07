@@ -1,13 +1,13 @@
-# SSH-BATCH-PROC - 远程评测自动化工具集
+# SSH-BATCH-PROC - 远程批量处理自动化工具集
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Shell](https://img.shields.io/badge/shell-bash-green.svg)](https://www.gnu.org/software/bash/)
 
-远程评测自动化工具集，提供数据上传、模型部署、任务执行、结果下载的一站式解决方案。
+远程批量处理自动化工具集，提供数据上传、远程处理、结果下载的一站式解决方案。支持将本地数据批量上传到远程服务器进行处理，并自动下载处理结果到本地。
 
 ## ✨ 核心功能
 
-### 📦 eval.sh - 远程评测执行脚本
+### 📦 eval.sh - 远程数据处理执行脚本
 - 🚀 **批量上传处理** - 可配置批次大小，智能分组
 - 🔄 **断点续传** - 支持中断恢复，避免重复传输
 - ✅ **MD5 完整性校验** - 确保数据传输准确性
@@ -26,7 +26,7 @@
 
 ## 🚀 快速开始
 
-### eval.sh - 单个数据集评测
+### eval.sh - 单个数据集处理
 
 ```bash
 # 准备目录结构
@@ -68,7 +68,7 @@ tail -f task_run.log
 
 ## 📖 详细文档
 
-- [eval.sh 完整文档](eval.md) - 远程评测脚本详细说明
+- [eval.sh 完整文档](eval.md) - 远程数据处理脚本详细说明
 - [task_run.sh 完整文档](task_run.md) - 批量任务管理脚本详细说明
 - [配置示例](eval.config.example) - 配置文件模板
 
